@@ -67,11 +67,3 @@ abstract class Veiculo {
 //Carro -> qtdPortas (atributo)
 //método calcular diária -> se qtdPortas >= 4 então acréscimo de 20%
 
-abstract class Carro extends Veiculo {
-    private int quantidadePortas;
-
-    public Carro(String marca, String modelo, int ano, String placa, double precoBase, int quantidadePortas){
-        super(marca, modelo, ano, placa, precoBase);
-        this.quantidadePortas = quantidadePortas;
-    }
-}
