@@ -38,6 +38,7 @@ abstract class Veiculo {
 
     }
 
+
     public int getAno(){
         return ano;
     }
@@ -55,7 +56,7 @@ abstract class Veiculo {
         this.precoBase = precoBase;
     }
 
-    public  String toString(){
+    public  String exibirDados(){
         return marca + " " + modelo + " (" + ano + ") ";
     }
 }

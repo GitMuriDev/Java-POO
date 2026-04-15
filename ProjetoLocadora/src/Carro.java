@@ -15,7 +15,5 @@ public class Carro extends Veiculo {
         return getPrecoBase();
 
     }
-    public String toString() {
-        return "A quantidade é:  " + quantidadePortas;
-    }
+    public String exibirDados() {return super.exibirDados() + "Portas: " + quantidadePortas;    }
 }

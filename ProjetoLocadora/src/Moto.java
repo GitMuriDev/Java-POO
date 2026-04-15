@@ -15,7 +15,5 @@ public class Moto extends Veiculo{
 
         return getPrecoBase();
     }
-    public String toString() {
-        return "A quantidade é:  " + quantidadeCilindros;
-    }
+    public String exibirDados() {return super.exibirDados() + "Cilindra: " + quantidadeCilindros;    }
 }
